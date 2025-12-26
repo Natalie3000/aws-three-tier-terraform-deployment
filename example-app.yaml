@@ -45,10 +45,10 @@ spec:
   ingressClassName: external-nginx
   tls:
   - hosts:
-    - app.cloudwitches.online
-    secretName: app-cloudwitches-online
+    - app.natalieobukohwo.online
+    secretName: app-natalieobukohwo-online
   rules:
-  - host: app.cloudwitches.online
+  - host: app.natalieobukohwo.online
     http:
       paths:
       - path: /
