@@ -102,7 +102,7 @@ variable "namecheap_api_key" {
 variable "namecheap_username" {
   description = "Namecheap username"
   type        = string
-  default     = "smartobi"
+  default     = "Natalie8804"
 }
 variable "namecheap_client_ip" {
   description = "Client IP for Namecheap API access"
@@ -164,5 +164,5 @@ variable "repository_name" {
 variable "email" {
   description = "Email address for notifications and certificates"
   type        = string
-  default     = "support@digitalwitchng.online"
+  default     = "natalieobukohwo@gmail.com"
 }
