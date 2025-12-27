@@ -2,7 +2,6 @@ resource "aws_route53_zone" "r53_zone" {
     name = var.domain-name
     comment = "Managed by Terraform"
     force_destroy = true
-    
     tags = {
         Name        = "${var.environment}-hosted-zone"
         Environment = var.environment
