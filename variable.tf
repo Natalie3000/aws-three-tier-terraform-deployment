@@ -83,7 +83,7 @@ variable "zone_name" {
   default     = "natalieobukohwo.online"
 }
 
-variable "domain_name" {
+variable "domain-name" {
   description = "Domain name to be created"
   type        = string
   default     = "natalieobukohwo.online"
