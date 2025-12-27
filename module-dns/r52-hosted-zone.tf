@@ -1,5 +1,5 @@
 resource "aws_route53_zone" "r53_zone" {
-    name = var.domain-name
+    name = var.domain_name
     comment = "Managed by Terraform"
     force_destroy = true
     
